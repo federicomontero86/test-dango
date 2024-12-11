@@ -45,7 +45,7 @@ export default function HeroSlider() {
       >
         <SwiperSlide>
           <div className="flex flex-col items-center gap-8 sm:flex-row-reverse md:w-fit mx-auto">
-            <div className=" flex justify-end">
+            <div className="flex justify-end">
               <Image
                 src="/slider-image-1.png"
                 alt="slider-image-1"
@@ -86,7 +86,7 @@ export default function HeroSlider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-8 sm:flex-row-reverse md:w-fit mx-auto">
-            <div className="w-full flex justify-center">
+            <div className="flex justify-end">
               <Image
                 src="/slider-image-1.png"
                 alt="slider-image-2"
@@ -95,11 +95,11 @@ export default function HeroSlider() {
                 className="rounded-lg z-10 object-cover"
               />
             </div>
-            <div className="flex flex-col items-center text-center justify-center md:items-start w-full">
+            <div className="flex flex-col items-center text-center justify-center md:items-start">
               <h1 className="text-[37px] leading-heroTitle text-green mb-4 font-normal text-start w-[270px] h-[83px] pl-4 md:p-0">
                 Lorem ipsum dolor sit amet
               </h1>
-              <p className="hidden md:block text-start font-light text-green md:mb-4">
+              <p className="hidden md:block text-start font-light text-green md:mb-4 w-[400px]">
                 Nunc porttitor tortor metus, nec sagittis lectus accumsan quis.
                 Aenean euismod mollis tempor.
               </p>
@@ -111,7 +111,10 @@ export default function HeroSlider() {
                   SHOP NOW
                   <FaChevronRight />
                 </HeroSliderButton>
-                <HeroSliderButton textStyle="justify-center">
+                <HeroSliderButton
+                  textStyle="justify-center"
+                  style="md:text-green md:border-2 md:border-green"
+                >
                   TAKE THE QUIZ
                 </HeroSliderButton>
               </div>
@@ -124,7 +127,7 @@ export default function HeroSlider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-col items-center gap-8 sm:flex-row-reverse md:w-fit mx-auto">
-            <div className="w-full flex justify-center">
+            <div className="flex justify-end">
               <Image
                 src="/slider-image-1.png"
                 alt="slider-image-3"
@@ -133,11 +136,11 @@ export default function HeroSlider() {
                 className="rounded-lg z-10 object-cover"
               />
             </div>
-            <div className="flex flex-col items-center text-center justify-center md:items-start w-full">
+            <div className="flex flex-col items-center text-center justify-center md:items-start">
               <h1 className="text-[37px] leading-heroTitle text-green mb-4 font-normal text-start w-[270px] h-[83px] pl-4 md:p-0">
                 Lorem ipsum dolor sit amet
               </h1>
-              <p className="hidden md:block text-start font-light text-green md:mb-4">
+              <p className="hidden md:block text-start font-light text-green md:mb-4 w-[400px]">
                 Nunc porttitor tortor metus, nec sagittis lectus accumsan quis.
                 Aenean euismod mollis tempor.
               </p>
@@ -149,7 +152,10 @@ export default function HeroSlider() {
                   SHOP NOW
                   <FaChevronRight />
                 </HeroSliderButton>
-                <HeroSliderButton textStyle="justify-center">
+                <HeroSliderButton
+                  textStyle="justify-center"
+                  style="md:text-green md:border-2 md:border-green"
+                >
                   TAKE THE QUIZ
                 </HeroSliderButton>
               </div>
